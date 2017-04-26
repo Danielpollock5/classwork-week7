@@ -22,3 +22,19 @@
 //functions
 // else, if, if
 // else, else if, else
+// make the more complicated rule on top!!!!!!
+for(i = 1; i <= 100; i = i+1) {
+	// if its divisable by 3 and 5 doing the following code
+	if (i % 3 == 0 && i % 5 == 0) {
+		console.log("fizzbuzz")
+	// if its divisable by 5 then do this....'buzz'
+	} else if (i % 5 == 0) {
+		console.log("buzz")
+	// if its divisable by 3 then do this...fizzzz
+	} else if (i % 3 == 0) {
+		console.log("fizz")
+	// print
+	} else {
+		console.log(i)
+	}
+}
